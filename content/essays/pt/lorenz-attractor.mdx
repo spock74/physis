@@ -1,0 +1,45 @@
+---
+title: "O Atrator de Lorenz: Um Estudo sobre o Caos"
+date: "04 jan 2026"
+description: "Uma exploração `atill a Hello World` interativa do sistema de Lorenz."
+---
+
+
+> Esse é um artigo dummy, um hello world para demonstração do projeto [**digital garden**]()
+
+
+O atrator de Lorenz foi introduzido por Edward Lorenz em 1963, que o derivou a partir das equações simplificadas de rolos de convecção que ocorrem nas equações da atmosfera. É um mapa caótico que mostra como o estado de um sistema dinâmico evolui no tempo num padrão complexo, não-repetitivo e cuja forma é conhecida por se assemelhar a uma borboleta.
+
+Trata-se de um sistema não-linear, tridimensional e determinístico que exibe comportamento caótico e demonstra aquilo a que hoje se chama um atrator estranho.
+
+As equações que governam o atrator de Lorenz são ([Wikipedia](https://pt.wikipedia.org/wiki/Atrator_de_Lorenz)):
+
+## As Equações
+
+O sistema é definido por:
+
+$$
+\begin{aligned}
+\frac{dx}{dt} &= \sigma(y - x) \\
+\frac{dy}{dt} &= x(\rho - z) - y \\
+\frac{dz}{dt} &= xy - \beta z
+\end{aligned}
+$$
+
+Onde:
+
+- $\sigma$ é o número de Prandtl
+- $\rho$ é o número de Rayleigh
+- $\beta$ é um fator geométrico
+
+## Simulação Interativa
+
+Abaixo está uma simulação em tempo real do sistema. Você pode ajustar o **número de Rayleigh ($\rho$)** para observar a transição de um ponto fixo estável para um atrator caótico.
+
+A trajectória do sistema de Lorenz para valores de $\rho=28$, $\sigma=10$, $\beta=\frac{8}{3}$
+
+<LorenzAttractor />
+
+## Caos determinístico: sensibilidade às condições iniciais
+
+O atrator de Lorenz O sistema exibe _dependência sensível às condições iniciais_, o que significa que pequenas mudanças no estado inicial levam a trajetórias vastamente diferentes ao longo do tempo. Esta é a essência do caos.

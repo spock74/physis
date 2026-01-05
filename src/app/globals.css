@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+
+
+:root {
+  /* Light Mode (Default - Academic Cream) */
+  --background: #FDFBF7;
+  --foreground: #1A1A1A;
+  --primary: #2C3E50;
+  --secondary: #E0DCD3;
+  --accent: #C0392B;
+  --font-body: var(--font-serif);
+  --line-height: 1.6;
+  --max-width: 65ch;
+}
+
+[data-theme="dark"] {
+  /* Dark Mode (High Contrast) */
+  --background: #0F172A;
+  --foreground: #E2E8F0;
+  --primary: #94A3B8;
+  --secondary: #1E293B;
+  --accent: #F87171;
+  --font-body: var(--font-serif);
+  --line-height: 1.6;
+  --max-width: 65ch;
+}
+
+[data-theme="reading"] {
+  /* Reading Mode (Sepia & Optimized Typography) */
+  --background: #F4ECD8;
+  --foreground: #433422;
+  --primary: #5C4033;
+  --secondary: #E6DCC3;
+  --accent: #8B4513;
+  --font-body: var(--font-serif); /* Could switch to a specific reading font if desired */
+  --line-height: 1.9; /* Relaxed line height */
+  --max-width: 60ch; /* Narrower for better eye tracking */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  line-height: var(--line-height);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Typography Overrides for Reading Mode */
+[data-theme="reading"] p {
+  font-size: 1.125rem; /* Slightly larger text */
+}

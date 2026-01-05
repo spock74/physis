@@ -1,0 +1,27 @@
+{
+  "HomePage": {
+    "title": "O Jardim Digital",
+    "subtitle": "Ensaios Computacionais sobre Física, Medicina e Complexidade."
+  },
+  "LocaleSwitcher": {
+    "label": "Idioma",
+    "en": "Inglês",
+    "pt": "Português"
+  },
+  "Metadata": {
+    "logisticMapTitle": "Simulação do Mapa Logístico",
+    "logisticMapDescription": "Simulação interativa do mapa logístico, um exemplo clássico de caos determinístico."
+  },
+  "LogisticMap": {
+    "title": "Mapa Logístico: Caos Determinístico",
+    "iterations": "Iterações",
+    "description": "Este é um mapa de recorrência para a equação logística <strong>x<sub>n+1</sub> = r * x<sub>n</sub> * (1 - x<sub>n</sub>)</strong>.",
+    "parabolaLabel": "Parábola (vermelho)",
+    "parabolaDesc": "A função logística.",
+    "lineLabel": "Reta (azul)",
+    "lineDesc": "A linha y = x.",
+    "cobwebLabel": "Teia de aranha (verde)",
+    "cobwebDesc": "A trajetória (ou órbita) do valor x ao longo das iterações.",
+    "adjustmentHint": "Ajuste o parâmetro <strong>r</strong> para observar diferentes comportamentos. Valores em torno de 3.57 marcam o início do comportamento caótico."
+  }
+}

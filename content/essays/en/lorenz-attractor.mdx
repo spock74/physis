@@ -1,0 +1,34 @@
+---
+title: "The Lorenz Attractor: A Study in Chaos"
+date: "04 jan 2026"
+description: "An interactive exploration of the Lorenz system and the butterfly effect."
+---
+
+The **Lorenz Attractor** is a set of chaotic solutions to the Lorenz system, a system of three ordinary differential equations originally studied by Edward Lorenz. It is notable for having chaotic solutions for certain parameter values and starting conditions.
+
+## The Equations
+
+The system is defined by:
+
+$$
+\begin{aligned}
+\frac{dx}{dt} &= \sigma(y - x) \\
+\frac{dy}{dt} &= x(\rho - z) - y \\
+\frac{dz}{dt} &= xy - \beta z
+\end{aligned}
+$$
+
+Where:
+- $\sigma$ is the Prandtl number
+- $\rho$ is the Rayleigh number
+- $\beta$ is a geometric factor
+
+## Interactive Simulation
+
+Below is a real-time simulation of the system. You can adjust the **Rayleigh number ($\rho$)** to observe the transition from a stable fixed point to a chaotic attractor.
+
+<LorenzAttractor />
+
+## The Butterfly Effect
+
+The shape of the Lorenz attractor, when plotted, may resemble a butterfly or figure eight. The system exhibits *sensitive dependence on initial conditions*, meaning that small changes in the starting state lead to vastly different trajectories over time. This is the essence of chaos.

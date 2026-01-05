@@ -1,0 +1,27 @@
+{
+  "HomePage": {
+    "title": "The Digital Garden",
+    "subtitle": "Computational Essays on Physics, Medicine, and Complexity."
+  },
+  "LocaleSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "pt": "Portuguese"
+  },
+  "Metadata": {
+    "logisticMapTitle": "Logistic Map Simulation",
+    "logisticMapDescription": "Interactive simulation of the logistic map, a classic example of deterministic chaos."
+  },
+  "LogisticMap": {
+    "title": "Logistic Map: Deterministic Chaos",
+    "iterations": "Iterations",
+    "description": "This is a recurrence map for the logistic equation <strong>x<sub>n+1</sub> = r * x<sub>n</sub> * (1 - x<sub>n</sub>)</strong>.",
+    "parabolaLabel": "Parabola (red)",
+    "parabolaDesc": "The logistic function.",
+    "lineLabel": "Line (blue)",
+    "lineDesc": "The line y = x.",
+    "cobwebLabel": "Cobweb (green)",
+    "cobwebDesc": "The trajectory (or orbit) of the value x over the iterations.",
+    "adjustmentHint": "Adjust the <strong>r</strong> parameter to observe different behaviors. Values around 3.57 mark the beginning of chaotic behavior."
+  }
+}

@@ -1,0 +1,22 @@
+---
+title: "O Pêndulo Caótico"
+date: "04 jan 2026"
+description: "Uma dança imprevisível de dois braços mecânicos."
+connections: ["lorenz-attractor", "manifesto-physis"]
+---
+
+O **Pêndulo Duplo** é um dos sistemas mais simples que exibe comportamento caótico. Diferente de um pêndulo simples, que oscila previsivelmente, o pêndulo duplo é extremamente sensível às condições iniciais.
+
+## A Física
+
+O sistema consiste em duas massas $m_1$ e $m_2$ conectadas por hastes rígidas de comprimento $l_1$ e $l_2$. As equações de movimento são derivadas usando a mecânica Lagrangiana, resultando em um sistema de equações diferenciais não-lineares acopladas.
+
+## Simulação
+
+Abaixo, você pode ver a simulação em tempo real. O rastro vermelho mostra a trajetória da segunda massa, revelando a complexidade do movimento.
+
+<ChaosPendulum />
+
+## Caos Determinístico
+
+Embora o movimento pareça aleatório, ele é puramente determinístico. Se pudéssemos replicar as condições iniciais com precisão infinita, o movimento seria idêntico. No entanto, na prática (e nesta simulação numérica), diferenças infinitesimais crescem exponencialmente, tornando a previsão de longo prazo impossível.
