@@ -1,12 +1,12 @@
-# digital-garden
+# Physis / digital-garden
 
 > [!NOTE]
 > **Status do Projeto: Experimental (Alpha)**
-> Este projeto encontra-se em estágio inicial de desenvolvimento, concebido primariamente para uso pessoal como um laboratório de experimentação e "jardim digital". Embora a arquitetura siga padrões profissionais visando escalabilidade futura, as funcionalidades e estruturas estão sujeitas a alterações frequentes.
+> Este projeto encontra-se em estágio inicial de desenvolvimento, concebido primariamente para uso pessoal como um laboratório de experimentação, um "jardim digital". Embora a arquitetura tente seguir padrões profissionais visando escalabilidade as funcionalidades e estruturas estão sujeitas a alterações frequentes.
 
-Este repositório contém o código-fonte e o conteúdo do projeto "digital-garden". Trata-se de uma plataforma de publicação na web (blog pessoal, a princípio para meu uso pessoal, mas espero que seja adaptável sem grandes dificuldades para alguém com demandas similares) construída sobre uma arquitetura de "Explorable Explanations". O sistema permite a integração de narrativas textuais com simulações matemáticas e físicas interativas.
+Trata-se de uma plataforma de publicação na web (blog pessoal, a princípio para meu uso pessoal, mas espero que seja adaptável sem grandes dificuldades para alguém com demandas similares) construída sobre uma arquitetura de "Explorable Explanations". O sistema permite a integração de narrativas textuais com simulações matemáticas e físicas interativas.
 
-A aplicação é desenvolvida em TypeScript utilizando o framework Next.js (App Router), com estilização via Tailwind CSS. O gerenciamento de conteúdo opera através de um sistema baseado em arquivos (File-Based CMS) utilizando MDX, permitindo a renderização híbrida de Markdown e Componentes React.
+O gerenciamento de conteúdo opera através de um sistema baseado em arquivos (File-Based CMS) utilizando MDX, permitindo a renderização híbrida de Markdown e Componentes React.
 
 Exemplo _hello world!_ deployed from Vercel: [Physis](https://physis-sable.vercel.app/pt)
 
