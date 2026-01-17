@@ -8,6 +8,8 @@ Este repositório contém o código-fonte e o conteúdo do projeto "digital-gard
 
 A aplicação é desenvolvida em TypeScript utilizando o framework Next.js (App Router), com estilização via Tailwind CSS. O gerenciamento de conteúdo opera através de um sistema baseado em arquivos (File-Based CMS) utilizando MDX, permitindo a renderização híbrida de Markdown e Componentes React.
 
+Exemplo _hello world!_ deployed from Vercel: [Physis](https://physis-sable.vercel.app/pt)
+
 ## Stack Tecnológica
 
 * **Framework:** Next.js
